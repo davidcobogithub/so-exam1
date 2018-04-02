@@ -199,7 +199,7 @@ Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU
 
 **9.** Estando sobre la carpeta deseada, escribimos el siguiente comando para clonar nuestro repositorio. En mi caso es, git clone https://github.com/davidcobogithub/so-exam1.git
 
-**10.** Luego de que se ha completado la clonación del repositorio, accedemos a la carpeta so-exam1, con el comando cd so-exam1/
+**10.** Luego de que se ha completado la clonación del repositorio, accedemos a la carpeta so-exam1, con el comando ```cd so-exam1/```
 
 **11.** Estando dentro de la carpeta so-exam1, escribimos el comando tig, para ver el historial de commits hechos hasta el momento
 
