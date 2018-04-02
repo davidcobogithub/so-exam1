@@ -19,6 +19,8 @@ _____
 
 ![](ImagenesSO/descarga/c2.jpg)
  
+**3.** Una vez se ha completado la descarga del MD5 Checksum Utility, abrimos el programa y aparecerá como lo muestra la figura:
 
+![](ImagenesSO/descarga/c3.jpg)
 
 
