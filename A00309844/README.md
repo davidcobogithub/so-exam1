@@ -102,13 +102,13 @@ _____
 **1.** Una vez se ha iniciado la sesión, abrimos la consola Terminal del sistema.
 
 **2.** Para obtener la información del sistema operativo, usamos los siguientes comandos: 
-
+```
 cat /proc/version
-
+```
 Linux version 4.9.0-6-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ) #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)
-
+```
 lsb_release -a
-
+```
 No LSB modules are available.
 
 Distributor ID:	Debian
