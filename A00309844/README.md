@@ -10,6 +10,16 @@
  
 _____
 
+**Tabla de Contenido**
+
+  - [1. Descarga y validación del ISO de Debian 9](#1.-Descarga-y-validaci%C3%B3n-del-iso-de-debian-9)
+  - [2. Instalación de Debian 9 en VirtualBox](#2.-instalaci%C3%B3n-de-debian-9-en-virtualbox)
+  - [3. Configuración de red para la conexión a través de Putty](#3.-configuraci%C3%B3-de-red-para-la-conexi%C3%B3n-a-trav%C3%B3s-de-putty)
+  - [4. Instalación de git y tig](#4.-instalaci%C3%B3n-de-git-y-tig)
+  - [5. Exportación de la máquina virtual](#5.-exportaci%C3%B3n-de-la-m%C3%B3quina-virtual)
+  - [6. Importación de la máquina virtual](#6.-importaci%C3%B3n-de-la-m%C3%B3quina-virtual)
+  - [7. Cuadro comparativo entre Debian 9 y CentOS7](#7.-cuadro-comparativo-entre-debian-9-y-centos7)
+
 # Solución Parcial  
 
 ##  1. Descarga y validación del ISO de Debian 9
