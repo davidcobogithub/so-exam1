@@ -120,4 +120,4 @@ Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU
 
 ![](ImagenesSO/instalacion/t1.jpg)
 
-
+##  3. Configuración de red para la conexión a través de Putty
