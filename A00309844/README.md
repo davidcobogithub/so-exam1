@@ -15,6 +15,9 @@ _____
 
 ![](ImagenesSO/descarga/c1_LI.jpg)
 
+**2.** Una vez se ha completado la descarga de la imagen, verificamos su MD5 para ver si es la correcta. Utilizamos el programa [MD5 Checksum Utility](https://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html)
+
+![](ImagenesSO/descarga/c2.jpg)
  
 
 
