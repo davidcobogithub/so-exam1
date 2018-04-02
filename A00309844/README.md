@@ -4,7 +4,10 @@
 
 **Código:** A00309844
 
-**URL repositorio:** https://github.com/davidcobogithub/so-exam1.git 
+**Materia:** Sistemas Operativos
+
+**URL repositorio:** https://github.com/davidcobogithub/so-exam1.git
+ 
 _____
 
 # Solución Parcial  
@@ -104,11 +107,12 @@ _____
 **2.** Para obtener la información del sistema operativo, usamos los siguientes comandos: 
 ```
 cat /proc/version
-```
+
 Linux version 4.9.0-6-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ) #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)
 ```
-lsb_release -a
 ```
+lsb_release -a
+
 No LSB modules are available.
 
 Distributor ID:	Debian
@@ -118,10 +122,12 @@ Description:	Debian GNU/Linux 9.4 (stretch)
 Release:	9.4
 
 Codename:	stretch
-
+```
+```
 uname -a
 
 Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU/Linux
+```
 
 **3.** Adjunto imagen de comandos en Terminal:
 
@@ -147,7 +153,7 @@ Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU
 
 **8.** En la consola escribimos el comando ip a para ver la información de las interfaces de red que tiene actualmente la máquina.
 
-**9.** Nos aparecerán las interfaces de red y la que permitirá la conexión con Putty(Windows) será la 3: enp0s8 con la dirección ip 192.168.0.3, como se muestra en la figura:
+**9.** Nos aparecerán las interfaces de red y la que permitirá la conexión con Putty(Windows) será la ``` 3: enp0s8 con la dirección ip 192.168.0.3``` como se muestra en la figura:
 
 ![](ImagenesSO/configPutty/c2_LI.jpg)
 
@@ -167,25 +173,25 @@ Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU
 
 **15.** Y listo, ya nos hemos conectado a nuestra máquina virtual por SSH mediante la herramienta Putty para Windows.
 
-##  4. Instalación de git y tig
+##  4. Instalación de Git y Tig
 
 **1.** Para instalar git y tig debemos estar en la sesión de administrador o superusuario root.
 
-**2.** Luego, escribimos el siguiente comando apt-get install git -y
+**2.** Luego, escribimos el siguiente comando ```apt-get install git -y```
 
 **3.** Comenzará la instalación de Git. Al finalizar deberá quedar registro como lo muestra la figura: 
 
 ![](ImagenesSO/instalacionGit/c1.jpg)
 
-**4.** Podemos verificar la version de Git utilizando el comando git --version. Aparecerá la siguiente informacion:
+**4.** Podemos verificar la version de Git utilizando el comando ```git --version``` . Aparecerá la siguiente informacion:
 
 ![](ImagenesSO/instalacionGit/c2.jpg)
 
-**5.** Similarmente, para instalar Tig escribimos el siguiente comando apt-get install tig -y
+**5.** Similarmente, para instalar Tig escribimos el siguiente comando ```apt-get install tig -y```
 
 **6.** Comenzará la instalación de Tig.
 
-**7.** Podemos verificar la version de Tig utilizando el comando tig --version. Aparecerá la siguiente informacion:
+**7.** Podemos verificar la version de Tig utilizando el comando ```tig --version``` . Aparecerá la siguiente informacion:
 
 ![](ImagenesSO/instalacionGit/c3.jpg)
 
