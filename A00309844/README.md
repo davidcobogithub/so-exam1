@@ -12,13 +12,13 @@ _____
 
 **Tabla de Contenido**
 
-  - [1. Descarga y validación del ISO de Debian 9](#1.-Descarga-y-validaci%C3%B3n-del-iso-de-debian-9)
-  - [2. Instalación de Debian 9 en VirtualBox](#2.-instalaci%C3%B3n-de-debian-9-en-virtualbox)
-  - [3. Configuración de red para la conexión a través de Putty](#3.-configuraci%C3%B3-de-red-para-la-conexi%C3%B3n-a-trav%C3%B3s-de-putty)
-  - [4. Instalación de git y tig](#4.-instalaci%C3%B3n-de-git-y-tig)
-  - [5. Exportación de la máquina virtual](#5.-exportaci%C3%B3n-de-la-m%C3%B3quina-virtual)
-  - [6. Importación de la máquina virtual](#6.-importaci%C3%B3n-de-la-m%C3%B3quina-virtual)
-  - [7. Cuadro comparativo entre Debian 9 y CentOS7](#7.-cuadro-comparativo-entre-debian-9-y-centos7)
+  - [1. Descarga y validación del ISO de Debian 9](#1.-Descarga-y-validación-del-ISO-de-Debian-9)
+  - [2. Instalación de Debian 9 en VirtualBox](#2.-Instalación-de-Debian-9-en-VirtualBox)
+  - [3. Configuración de red para la conexión a través de Putty](#3.-Configuración-de-red-para-la-conexión-a-través-de-Putty)
+  - [4. Instalación de git y tig](#4.-Instalación-de-git-y-tig)
+  - [5. Exportación de la máquina virtual](#5.-Exportación-de-la-máquina-virtual)
+  - [6. Importación de la máquina virtual](#6.-Importación-de-la-máquina-virtual)
+  - [7. Cuadro comparativo entre Debian 9 y CentOS7](#7.-Cuadro-comparativo-entre-Debian-9-y-centOS7)
 
 # Solución Parcial  
 
@@ -256,3 +256,24 @@ Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU
 ![](ImagenesSO/expimpmv/m3.jpg)
 
 **5.** Esperamos a que termine el proceso de importación de la máquina y listo ya tenemos nuestra máquina para ser utilizada.
+
+##  7. Cuadro comparativo entre Debian 9 y CentOS7
+
+Debian 9 | CentOS7  
+--- | ---  
+El peso de la versión debian-9.4.0-amd64-netinst es de 291 MB | El peso de la versión de 64 bits minimal es de 792 MB  
+Distribución libre, por completo manejada por la comunidad, no esta basada en ninguna otra distribución y por el contrario la mayor parte de las distribuciones actuales están basadas en Debian | Distribución de GNU/Linux derivado, o más bien clonado de Red Hat Enterprise Linux, lo que permite una compatibilidad del 100% con los binarios de las aplicaciones desarrolladas para RHEL. Por ello, y al estar "respaldado" por una compañía tan importante como Red Hat, es una de las distribuciones más usadas  
+Debian sobrepasa a todas las otras distribuciones en lo bien integrados que están sus paquetes | Si se desea volver más escalable, se debe añadir más servidores 
+Package Manager que maneja es 'apt-get' y 'aptitude' | Package Manager que maneja es yum  
+A la hora de realizar la configuración, presenta muchos más pasos | La rapidez es mucho mayor respecto a Debian debido a que ejecuta solo versiones estables de los programas  
+La actualización de Debian es mucho más sencilla y menos complicada, si solo tienes instalado software estándard y de sus repositorios, debería ser muy fácil | El problema se da cuando quieres hacer una actualización mayor, de X a Y
+Actualmente Debian soporta un impresionante número de arquitecturas CPU: alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc | El sistema operativo CentOS puede funcionar un ordenador durante bastante tiempo sin necesidad de actualizaciones del sistema adicionales  
+Menor consumo de disco duro (al no instalar paquetes que no usaremos jamás, se ahorra bastante espacio)	| CentOs tiene muy buena compatibilidad en todo lo que es el hosting, casi todos los paneles son compatibles
+Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado | Si el usuario es nuevo en linux y prefiere un entorno simple y sencillo lo mejor es iniciar usando este SO  
+Casi no existen malware o virus para este sistema operativo | Se ha convertido en uno de los sistemas de servidores líderes en servidores
+ 
+## Referencias  
+
+https://www.sinologic.net/2011-02/porque-debian-no-centos.html
+
+http://www.comunidadhosting.com/t/cual-sistema-operativo-es-mejor-centos-o-debian.9842/
